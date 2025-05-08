@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: [self-hosted, minikube, k8s-runner, runner-deployment-xwllc-9d85n]
+    runs-on: [k8s-runner]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
